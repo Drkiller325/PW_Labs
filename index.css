@@ -10,7 +10,7 @@
     color: #000000;
     background-color: aqua;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 18px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -37,8 +37,8 @@
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    margin: 0;
   }
 
   .welcome-text {
@@ -48,4 +48,37 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
+  }
+
+  .About {
+    height: 400px;
+    background-color: antiquewhite;
+  }
+  .box {
+    
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+  }
+
+  .Contact {
+    height: 400px;
+    background-color: #ddd;
+  }
+
+  .contact {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .footer{
+    position: relative;
+    top: 2%;
+    left: 2%;
   }
