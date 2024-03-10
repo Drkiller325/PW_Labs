@@ -1,4 +1,14 @@
 /* Add a black background color to the top navigation */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin:0;
+  padding:0;
+  }
+
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
@@ -51,7 +61,7 @@
   }
 
   .About {
-    height: 400px;
+    height: 600px;
     background-color: antiquewhite;
   }
   .box {
@@ -65,7 +75,7 @@
   }
 
   .Contact {
-    height: 400px;
+    height: 600px;
     background-color: #ddd;
   }
 
@@ -81,4 +91,42 @@
     position: relative;
     top: 2%;
     left: 2%;
+    width: max-content;
+  }
+
+  .Products {
+    height: 600px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
   }
