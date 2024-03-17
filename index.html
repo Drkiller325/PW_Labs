@@ -18,8 +18,8 @@
     <main>
       <section class="welcome" id="home">
         <div class="welcome-text">
-          <h1>Drink more water</h1>
-          <p>this is the welocme stuff</p>
+          <h1>Welcome to Hydration City</h1>
+          <p>Get started with our latest products</p>
           <button class="Labding_button">Get started</button>
         </div>
       </section>
@@ -29,6 +29,7 @@
           <h2>What we do?</h2>
           <p>We are a new pationate group that want to promote a more healthy</p>
           <p>lifestyle and the importance of keeping yourself hydrated</p>
+          <div class="mobile-only">Hello mobile users!</div>
         </section>
 
         <section class="Products" id="products">
@@ -38,7 +39,7 @@
             <img src="bottle.webp" alt="Denim Jeans" style="width:100%">
             <h1>hydroflask ultra</h1>
             <p class="price">$19.99</p>
-            <p>Some text about the jeans..</p>
+            <p>1.5L plastic airtight flask</p>
             <p><button>Add to Cart</button></p>
           </div>
 
@@ -46,7 +47,7 @@
             <img src="bottle_2.webp" alt="Denim Jeans" style="width:100%">
             <h1>hydration flask</h1>
             <p class="price">$24.99</p>
-            <p>Some text about the jeans..</p>
+            <p>700ml great air cooling</p>
             <p><button>Add to Cart</button></p>
           </div>
 
@@ -56,14 +57,26 @@
           <div class="contact">
             <h1>Contact Us</h1>
             <h3>Email: hydrationNation@gmail.com</h3>
-            <a href="#about">get to about</a>
+            <h3>Whatsapp: +3735468452</h3>
+            <h3>discord : <link rel="stylesheet" href="https://discord.com">discord.com</h3>
           </div>
         </section>
       </div>
     </main>
     <footer class="footer">Hydration Nation 2024</footer>
+/
+    <div class="popup" onclick="myFunction()">
+      <img src="drop.png" alt="help" class="mascot" />
+      <span class="popuptext" id="myPopup">Want a Drink?</span>
+    </div>
 
-    <img class="mascot" src="images.png" alt="help">
+    <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+    </script>
 
   </body>
 </html>
