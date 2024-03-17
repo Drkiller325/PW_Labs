@@ -63,6 +63,8 @@ body {
     }
     .mobile-only {
       display: block;
+      font-weight: bold;
+
     }
   }
   
@@ -182,11 +184,13 @@ body {
     0% {}
     50% {transform: translateY(20px);}
     100% {top:0px}
+
   }
 
   img.mascot {
     display: none;
     position: sticky;
+
     bottom: 4%;
     left: 90%;
     max-width: 100px;
@@ -199,6 +203,7 @@ body {
     cursor: pointer;
     
   }
+
 
 
   /* Popup container - can be anything you want */
@@ -269,5 +274,4 @@ body {
     }
   }
 
-  
   
