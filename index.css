@@ -188,13 +188,14 @@ body {
   }
 
   img.mascot {
+    display: none;
     position: sticky;
 
     bottom: 4%;
     left: 90%;
     max-width: 100px;
     height: auto;
-    animation: mascot 2s infinite ;
+    animation: mascot 2s  infinite;
     
   }
 
